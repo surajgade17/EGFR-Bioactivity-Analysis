@@ -21,10 +21,13 @@ is a major focus of cancer drug discovery.
 3. Calculated Lipinski descriptors using RDKit
 4. Visualized bioactivity distribution and drug-likeness
 
-## Key Findings
+- ## Key Findings
 - 18,384 active compounds identified against EGFR
 - Active compounds largely follow Lipinski's Rule of Five
 - Clear separation between active/inactive IC50 distributions
+- Active compounds show higher pChEMBL values (mean 7.6) vs inactive (mean 4.6)
+- 5,345 highly potent compounds identified (pChEMBL ≥ 8)
+- Majority of active EGFR inhibitors violate Lipinski's Ro5 — consistent with known kinase inhibitor chemistry
 
 ## Tools Used
 - Python, Pandas, NumPy, Matplotlib
